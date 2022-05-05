@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		986B54132824644B005F1618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54122824644B005F1618 /* AppDelegate.swift */; };
+		986B54152824644B005F1618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54142824644B005F1618 /* ViewController.swift */; };
+		986B54172824644C005F1618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986B54162824644C005F1618 /* Assets.xcassets */; };
+		986B541A2824644C005F1618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986B54182824644C005F1618 /* Main.storyboard */; };
+		986B54252824644C005F1618 /* MewtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54242824644C005F1618 /* MewtTests.swift */; };
+		986B542F2824644C005F1618 /* MewtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B542E2824644C005F1618 /* MewtUITests.swift */; };
+		986B54312824644C005F1618 /* MewtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54302824644C005F1618 /* MewtUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		986B54212824644C005F1618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986B54072824644B005F1618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986B540E2824644B005F1618;
+			remoteInfo = Mewt;
+		};
+		986B542B2824644C005F1618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 986B54072824644B005F1618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 986B540E2824644B005F1618;
+			remoteInfo = Mewt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		986B540F2824644B005F1618 /* Mewt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mewt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		986B54122824644B005F1618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		986B54142824644B005F1618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		986B54162824644C005F1618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		986B54192824644C005F1618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		986B541B2824644C005F1618 /* Mewt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mewt.entitlements; sourceTree = "<group>"; };
+		986B54202824644C005F1618 /* MewtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MewtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986B54242824644C005F1618 /* MewtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MewtTests.swift; sourceTree = "<group>"; };
+		986B542A2824644C005F1618 /* MewtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MewtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		986B542E2824644C005F1618 /* MewtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MewtUITests.swift; sourceTree = "<group>"; };
+		986B54302824644C005F1618 /* MewtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MewtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986B540C2824644B005F1618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B541D2824644C005F1618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B54272824644C005F1618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		986B54062824644B005F1618 = {
+			isa = PBXGroup;
+			children = (
+				986B54112824644B005F1618 /* Mewt */,
+				986B54232824644C005F1618 /* MewtTests */,
+				986B542D2824644C005F1618 /* MewtUITests */,
+				986B54102824644B005F1618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986B54102824644B005F1618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986B540F2824644B005F1618 /* Mewt.app */,
+				986B54202824644C005F1618 /* MewtTests.xctest */,
+				986B542A2824644C005F1618 /* MewtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986B54112824644B005F1618 /* Mewt */ = {
+			isa = PBXGroup;
+			children = (
+				986B54122824644B005F1618 /* AppDelegate.swift */,
+				986B54142824644B005F1618 /* ViewController.swift */,
+				986B54162824644C005F1618 /* Assets.xcassets */,
+				986B54182824644C005F1618 /* Main.storyboard */,
+				986B541B2824644C005F1618 /* Mewt.entitlements */,
+			);
+			path = Mewt;
+			sourceTree = "<group>";
+		};
+		986B54232824644C005F1618 /* MewtTests */ = {
+			isa = PBXGroup;
+			children = (
+				986B54242824644C005F1618 /* MewtTests.swift */,
+			);
+			path = MewtTests;
+			sourceTree = "<group>";
+		};
+		986B542D2824644C005F1618 /* MewtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				986B542E2824644C005F1618 /* MewtUITests.swift */,
+				986B54302824644C005F1618 /* MewtUITestsLaunchTests.swift */,
+			);
+			path = MewtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986B540E2824644B005F1618 /* Mewt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986B54342824644C005F1618 /* Build configuration list for PBXNativeTarget "Mewt" */;
+			buildPhases = (
+				986B540B2824644B005F1618 /* Sources */,
+				986B540C2824644B005F1618 /* Frameworks */,
+				986B540D2824644B005F1618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mewt;
+			productName = Mewt;
+			productReference = 986B540F2824644B005F1618 /* Mewt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		986B541F2824644C005F1618 /* MewtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986B54372824644C005F1618 /* Build configuration list for PBXNativeTarget "MewtTests" */;
+			buildPhases = (
+				986B541C2824644C005F1618 /* Sources */,
+				986B541D2824644C005F1618 /* Frameworks */,
+				986B541E2824644C005F1618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986B54222824644C005F1618 /* PBXTargetDependency */,
+			);
+			name = MewtTests;
+			productName = MewtTests;
+			productReference = 986B54202824644C005F1618 /* MewtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		986B54292824644C005F1618 /* MewtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986B543A2824644C005F1618 /* Build configuration list for PBXNativeTarget "MewtUITests" */;
+			buildPhases = (
+				986B54262824644C005F1618 /* Sources */,
+				986B54272824644C005F1618 /* Frameworks */,
+				986B54282824644C005F1618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				986B542C2824644C005F1618 /* PBXTargetDependency */,
+			);
+			name = MewtUITests;
+			productName = MewtUITests;
+			productReference = 986B542A2824644C005F1618 /* MewtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986B54072824644B005F1618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					986B540E2824644B005F1618 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					986B541F2824644C005F1618 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 986B540E2824644B005F1618;
+					};
+					986B54292824644C005F1618 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 986B540E2824644B005F1618;
+					};
+				};
+			};
+			buildConfigurationList = 986B540A2824644B005F1618 /* Build configuration list for PBXProject "Mewt" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 986B54062824644B005F1618;
+			productRefGroup = 986B54102824644B005F1618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986B540E2824644B005F1618 /* Mewt */,
+				986B541F2824644C005F1618 /* MewtTests */,
+				986B54292824644C005F1618 /* MewtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986B540D2824644B005F1618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986B54172824644C005F1618 /* Assets.xcassets in Resources */,
+				986B541A2824644C005F1618 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B541E2824644C005F1618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B54282824644C005F1618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986B540B2824644B005F1618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986B54152824644B005F1618 /* ViewController.swift in Sources */,
+				986B54132824644B005F1618 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B541C2824644C005F1618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986B54252824644C005F1618 /* MewtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		986B54262824644C005F1618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986B542F2824644C005F1618 /* MewtUITests.swift in Sources */,
+				986B54312824644C005F1618 /* MewtUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		986B54222824644C005F1618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986B540E2824644B005F1618 /* Mewt */;
+			targetProxy = 986B54212824644C005F1618 /* PBXContainerItemProxy */;
+		};
+		986B542C2824644C005F1618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 986B540E2824644B005F1618 /* Mewt */;
+			targetProxy = 986B542B2824644C005F1618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		986B54182824644C005F1618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986B54192824644C005F1618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		986B54322824644C005F1618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		986B54332824644C005F1618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		986B54352824644C005F1618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mewt/Mewt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.Mewt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		986B54362824644C005F1618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mewt/Mewt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.Mewt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		986B54382824644C005F1618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.MewtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mewt.app/Contents/MacOS/Mewt";
+			};
+			name = Debug;
+		};
+		986B54392824644C005F1618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.MewtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mewt.app/Contents/MacOS/Mewt";
+			};
+			name = Release;
+		};
+		986B543B2824644C005F1618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.MewtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mewt;
+			};
+			name = Debug;
+		};
+		986B543C2824644C005F1618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5762VEA4LK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjornorri.MewtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Mewt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986B540A2824644B005F1618 /* Build configuration list for PBXProject "Mewt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986B54322824644C005F1618 /* Debug */,
+				986B54332824644C005F1618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986B54342824644C005F1618 /* Build configuration list for PBXNativeTarget "Mewt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986B54352824644C005F1618 /* Debug */,
+				986B54362824644C005F1618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986B54372824644C005F1618 /* Build configuration list for PBXNativeTarget "MewtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986B54382824644C005F1618 /* Debug */,
+				986B54392824644C005F1618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986B543A2824644C005F1618 /* Build configuration list for PBXNativeTarget "MewtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986B543B2824644C005F1618 /* Debug */,
+				986B543C2824644C005F1618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986B54072824644B005F1618 /* Project object */;
+}
