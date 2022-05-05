@@ -14,6 +14,8 @@
 		986B54252824644C005F1618 /* MewtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54242824644C005F1618 /* MewtTests.swift */; };
 		986B542F2824644C005F1618 /* MewtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B542E2824644C005F1618 /* MewtUITests.swift */; };
 		986B54312824644C005F1618 /* MewtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B54302824644C005F1618 /* MewtUITestsLaunchTests.swift */; };
+		986B543E28246473005F1618 /* KeyboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B543D28246473005F1618 /* KeyboardMonitor.swift */; };
+		986B5440282464A3005F1618 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B543F282464A3005F1618 /* InputController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		986B542A2824644C005F1618 /* MewtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MewtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		986B542E2824644C005F1618 /* MewtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MewtUITests.swift; sourceTree = "<group>"; };
 		986B54302824644C005F1618 /* MewtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MewtUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		986B543D28246473005F1618 /* KeyboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMonitor.swift; sourceTree = "<group>"; };
+		986B543F282464A3005F1618 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				986B54162824644C005F1618 /* Assets.xcassets */,
 				986B54182824644C005F1618 /* Main.storyboard */,
 				986B541B2824644C005F1618 /* Mewt.entitlements */,
+				986B543D28246473005F1618 /* KeyboardMonitor.swift */,
+				986B543F282464A3005F1618 /* InputController.swift */,
 			);
 			path = Mewt;
 			sourceTree = "<group>";
@@ -251,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986B5440282464A3005F1618 /* InputController.swift in Sources */,
 				986B54152824644B005F1618 /* ViewController.swift in Sources */,
+				986B543E28246473005F1618 /* KeyboardMonitor.swift in Sources */,
 				986B54132824644B005F1618 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
